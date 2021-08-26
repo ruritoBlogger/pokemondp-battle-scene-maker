@@ -1,0 +1,30 @@
+{
+  "name": "pokemon-battlescene-maker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ruritoBlogger/pokemondp-battle-scene-maker.git",
+  "author": "rurito0125 <rurito.blog@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export && next-sitemap",
+    "start": "next start"
+  },
+  "dependencies": {
+    "gsap": "^3.7.1",
+    "next": "^10.2.2",
+    "next-sitemap": "^1.6.99",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.34.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9",
+    "@types/react-router-dom": "^5.1.6",
+    "postcss": "^8.3.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.0.5"
+  }
+}
